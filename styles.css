@@ -15,7 +15,7 @@
   body {
     height: 100vh;
     display: flex;
-    background: #060AB2;
+    
   }
   
   .memory-game {
@@ -80,7 +80,3 @@
     padding: 3%;
   }
 
-.btn {
-  margin: 3%;
-}
-  
