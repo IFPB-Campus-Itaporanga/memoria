@@ -1,7 +1,6 @@
 .bloco{
     height: 100px;
     width: 100px;
-    background-color: blueviolet;
     margin: 5px;
     display: inline-block;
 }
@@ -15,6 +14,7 @@
   body {
     height: 100vh;
     display: flex;
+    background-color: #a05800;
     
   }
   
@@ -25,6 +25,7 @@
     display: flex;
     flex-wrap: wrap;
     perspective: 1000px;
+    
   }
   
   .memory-card {
@@ -53,8 +54,8 @@
     height: 100%;
     padding: 20px;
     position: absolute;
-    border-radius: 5px;
-    background: #1C7CCC;
+    border-radius: 10px;
+    background: #F6931E;
     backface-visibility: hidden;
   }
   
@@ -79,4 +80,6 @@
     flex-direction: column;
     padding: 3%;
   }
+
+
 
