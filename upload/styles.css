@@ -27,9 +27,9 @@ h1 {
   width: 640px;
   height: 640px;
   flex-wrap: wrap;
-  /* perspective: 1000px; */
   display: flex;
   flex-direction: column;
+  margin-top: 1%;
   
 }
 
@@ -65,7 +65,6 @@ label {
 .btn {
   height: 40pt;
   width: 80pt;
-  margin: 2%;
   size: 25pt;
   background: #F6931E;
   border-color: transparent;
@@ -100,36 +99,6 @@ label {
 
 .front-face {
   transform: rotateY(180deg);
-}
-
-.upload-card {
-  width: calc(25% - 10px);
-  height: calc(33.333% - 10px);
-  margin: 5px;
-  position: relative;
-  transform: scale(1);
-  transform-style: preserve-3d;
-  transition: transform .5s;
-  box-shadow: 1px 1px 1px rgba(0,0,0,.3);
-  
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-  padding: 3%;
-}
-
-.container {
-  display: flex;
-  flex-direction: row;
-  padding: 4%;
-  align-content: space-around;
- 
-}
-
-.division {
-  margin-bottom: 10%;
 }
 
 
