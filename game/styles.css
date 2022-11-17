@@ -12,10 +12,14 @@
   }
   
   body {
+    width: 100vw;
     height: 100vh;
     display: flex;
     background-color: #a05800;
+    align-items: center;
     justify-content: center;
+    align-content: center;
+  
   
   }
   
@@ -24,7 +28,6 @@
     height: 640px;
     display: flex;
     flex-wrap: wrap;
-    perspective: 1000px;
     
   }
   
