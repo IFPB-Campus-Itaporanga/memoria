@@ -16,12 +16,9 @@
         <?php 
             if (file_exists("img/img_1.png")) {
                 echo "<a href='game/index.html'> <button class='btn'>JOGO ANTERIOR</button></a>";
-            } 
-
-                
-            
+            }            
         ?>
-        
+        <a href="game/indexCopa.html"> <button class="btn">JOGO COPA DO MUNDO</button></a>
     </div>
     
    
